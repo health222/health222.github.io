@@ -1,0 +1,145 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+h1, h2 {
+  color: #333;
+}
+
+/* Header and Navigation Bar */
+ header {
+  background-color: coral;
+  padding: 20 px;
+   justify-content: center
+}
+head {
+  background-color: blue;
+  padding: 0;
+  align-content: left;
+  border-radius: 5px;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+}
+
+nav ul li {
+  margin: 0 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  background-color: #4CAF50;
+  color: white;
+  padding: 50px;
+}
+
+.hero h1 {
+  font-size: 2.5em;
+}
+
+/* Health Tips Section */
+#health-tips {
+  padding: 20px;
+}
+
+#health-tips img {
+  max-width: 100%;
+  height: auto;
+  margin-top: 20px;
+  margin: 5px;
+  
+}
+
+/* Responsive Design */
+.responsive-image {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  header {
+    text-align: center;
+  }
+  nav ul {
+    flex-direction: column;
+  }
+  nav ul li {
+    margin: 10px 0;
+  }
+  .hero h1 {
+    font-size: 2em;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: brown;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+
+#contact {
+     display: flex;
+     justify-content: center;
+     margin: 10px;
+}
+
+form {
+   height: auto;
+   width: auto;
+   padding: 15px;
+   background-color: silver;
+   border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+}
+
+input {
+   height: 15px;
+   max-width: 250px;
+   margin: 15px;
+}
+
+#submit {
+    height: auto;
+    width: fit-content;
+     border-radius: 2px;
+     background-color: blue;
+     color: white;
+}
+#mine {
+  display: flex;
+     justify-content: center;
+     margin: 10px;
+  height: auto;
+   width: auto;
+   padding: 15px;
+   background-color: silver;
+   border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#you{
+  background-color: gold
+}
